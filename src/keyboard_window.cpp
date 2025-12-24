@@ -62,16 +62,20 @@ void KeyBoardWindow::keyPressEvent(QKeyEvent* event) {
 }
 
 void KeyBoardWindow::on_character_pressed(const QString& character) {
-	if (display->text() == "Теперь я работаю отлично!" || display->text() == "Помоги мне заработать лучше...") {
+	if (display->text() == "Начните ввод...") {
 		display->clear();
+		display->setFocus();
 	}
 	display->setText(display->text() + character);
+	display->setFocus();
 }
 
 void KeyBoardWindow::on_backspace_pressed() {
-	if (display->text() == "Теперь я работаю отлично!" || display->text() == "Помоги мне заработать лучше...") {
+	if (display->text() == "Начните ввод...") {
 		display->clear();
+		display->setFocus();
 	} else {
 		display->backspace();
+		display->setFocus();
 	}
 }
