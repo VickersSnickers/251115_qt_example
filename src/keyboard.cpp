@@ -94,9 +94,6 @@ void KeyBoard::handle_key_press(const int code) {
     }
 }
 
-// ----------------------------------------------------------------------------
-// 									PRIVATE
-// ----------------------------------------------------------------------------
 void KeyBoard::create_buttons(
 	const std::vector<KeyData>& data, 
 	QGridLayout* layout, 

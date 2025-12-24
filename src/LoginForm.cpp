@@ -8,8 +8,8 @@
 
 LoginForm::LoginForm(QWidget *parent) : QDialog(parent)
 {
-    setWindowTitle("Добро пожаловать!");
-    setFixedSize(300, 150);
+    setWindowTitle("Окно входа.");
+    setFixedSize(300, 200);
 
     QLabel *welcomeLabel = new QLabel("Добро пожаловать!", this);
     welcomeLabel->setAlignment(Qt::AlignCenter);
