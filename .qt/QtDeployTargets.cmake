@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_QtLoginCalculator_FILE /Users/polinastoliarova/Desktop/QT/251115_qt_example/QtLoginCalculator)
+set(__QT_DEPLOY_TARGET_QtLoginCalculator_TYPE EXECUTABLE)
